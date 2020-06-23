@@ -28,5 +28,25 @@
       "name": "Aezikel",
       "email": "aezikel@gmail.com",
       "points": 98
+   },
+   {
+      "name": "James",
+      "email": "james@gmail.com",
+      "points": 60
+   },
+   {
+      "name": "Sarah",
+      "email": "sarah@gmail.com",
+      "points": 25
+   },
+   {
+      "name": "Frank",
+      "email": "frank@gmail.com",
+      "points": 39
+   },
+   {
+      "name": "Michael",
+      "email": "michael@gmail.com",
+      "points": 15
    }
 ]
