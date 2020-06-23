@@ -7,9 +7,9 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <style>
- tbody>tr:nth-of-type(1),nth-of-type(2),nth-of-type(3) {
-   background: #A8DADC;
- }
+  tbody > tr:nth-of-type(1), tr:nth-of-type(2), tr:nth-of-type(3){
+      background:#A8DADC;
+   }
 </style>
 <body>
    <div class="container mt-4">
@@ -26,13 +26,13 @@
                </tr>
             </thead>
               <tbody>
-                <% data.forEach(function(data){%>
+               <% data.forEach(function(data){%>
                   <tr>
-                     <td><%= data.name %></td>
+                     <td class="first"><%= data.name %></td>
                      <td><%= data.email %></td>
                      <td><%= data.points %></td>
                   </tr>
-                <% }) %>
+               <% }) %>
               </tbody>
             </table>
       </div>
